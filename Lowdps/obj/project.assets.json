@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "CSCore/1.2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net35-client/CSCore.dll": {}
+        },
+        "runtime": {
+          "lib/net35-client/CSCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSCore/1.2.1.2": {
+      "sha512": "DoQKUcdZLQawo3mOg8CvujJD9YkvTt6NtEu7S+OCo8+ySl8eCeUw4LFyL2E1OcAkPU918HZM6sUNcvIMcXWg6g==",
+      "type": "package",
+      "path": "cscore/1.2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cscore.1.2.1.2.nupkg.sha512",
+        "cscore.nuspec",
+        "lib/net35-client/CSCore.XML",
+        "lib/net35-client/CSCore.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "CSCore >= 1.2.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\chpdrx\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Games\\WowFish\\WinForm\\Lowdps\\Lowdps\\Lowdps.csproj",
+      "projectName": "Lowdps",
+      "projectPath": "C:\\Games\\WowFish\\WinForm\\Lowdps\\Lowdps\\Lowdps.csproj",
+      "packagesPath": "C:\\Users\\chpdrx\\.nuget\\packages\\",
+      "outputPath": "C:\\Games\\WowFish\\WinForm\\Lowdps\\Lowdps\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\chpdrx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "CSCore": {
+            "target": "Package",
+            "version": "[1.2.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"CSCore 1.2.1.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "CSCore",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
